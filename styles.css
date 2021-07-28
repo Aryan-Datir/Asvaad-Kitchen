@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    color: white;
+}
+li a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    float: right;
+    padding-inline: 10px;
+    align-items: center;
+    padding: 22px;
+    transition: 1s;
+    font-size: 150%;
+    font-family: Indie Flower;
+}
+ul{
+    z-index: 2;
+    height: 80px;
+    background-color: rgb(39, 36, 36);
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+li a:hover{
+    background-color: rgb(100, 99, 99);
+}
+
+.title{
+    float: left;
+    font-family: Indie Flower;
+    font-size: 250%;
+    transition: 1s;
+}
+.title:hover{
+    background-color: rgb(39, 36, 36);
+    font-weight: 600;
+}
+
+.bgimage{
+    width: 100%;
+    margin-top: 80px;
+    
+}
+.showtitle{
+    z-index: 1;
+    font-size: 700%;
+    position: absolute;
+    font-weight:800;
+    top: 420px;
+    right: 140px;
+    color: aliceblue;
+    font-family: Indie Flower, serif;
+}
+.subtitle{
+    z-index: 1;
+    font-size: 300%;
+    position: absolute;
+    font-weight:800;
+    top: 580px;
+    right: 350px;
+    color: aliceblue;
+    font-family: Indie Flower, serif;
+}
+#descrip{
+    z-index: 1;
+    font-size: 300%;
+    position: absolute;
+    top: 800px;
+    right:200px;
+    color: aqua;
+    font-weight: 200;
+    font-family: Dancing Script;
+}
+.second{
+    width: 100%;
+    
+}
+
+.videotext{
+    z-index: 1;
+    position: absolute;
+    font-size: 450%;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: Indie Flower ;
+    top:10px;
+    right: 400px;
+
+}
+
+.video1{
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    
+}
+.textforvid1{
+    right: 200px;
+    z-index: 1;
+    position: absolute;
+    top: 120px;
+    width: 40%;
+    font-size: 150%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.textforvid3{
+    left: 200px;
+    z-index: 1;
+    position: absolute;
+    top: 420px;
+    text-align: right;
+    width: 40%;
+    font-size: 150%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.video4{
+    position: absolute;
+    top: 420px;
+    right: 350px;
+}
+.video5{
+    position: absolute;
+    top: 700px;
+    left: 350px;
+}
+.video6{
+    position: absolute;
+    top: 700px;
+    right: 350px;
+}
+div{
+    position: relative;
+    width: 100%;
+}
